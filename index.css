@@ -206,6 +206,12 @@
     content: "";
     background-image: url('/icon/developermozilla.png');
 }
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="freecodecamp.org"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="freecodecamp.org"]::before,
+.b3-typography a[href *="freecodecamp.org"]::before{
+    content: "";
+    background-image: url('/icon/freecodecamp.ico');
+}
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="runoob.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="runoob.com"]::before,
 .b3-typography a[href *="runoob.com"]::before{
