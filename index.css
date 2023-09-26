@@ -621,6 +621,12 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 }
 
 /* ------------ 视频网站 | Video ------------ */
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="bilibili.com"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="bilibili.com"]::before,
+.b3-typography a[href *="bilibili.com"]::before{
+    content: "";
+    background-image: url('/icon/bilibili.ico');
+}
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="iq.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="iq.com"]::before,
 .b3-typography a[href *="iq.com"]::before{
