@@ -334,6 +334,12 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 }
 
 /* ------------ 工具官网 | Tools ------------ */
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="apifox.com"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="apifox.com"]::before,
+.b3-typography a[href *="apifox.com"]::before {
+    content: "";
+    background-image: url('/icon/apifox.ico');
+}
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="b3log.org/siyuan"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="b3log.org/siyuan"]::before,
 .b3-typography a[href *="b3log.org/siyuan"]::before {
