@@ -480,6 +480,12 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 }
 
 /* ------------ R18 ------------ */
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="pixiv.net"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="pixiv.net"]::before,
+.b3-typography a[href *="pixiv.net"]::before{
+    content: "";
+    background-image: url('/icon/pixiv.ico');
+}
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="pornhub.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="pornhub.com"]::before,
 .b3-typography a[href *="pornhub.com"]::before{
