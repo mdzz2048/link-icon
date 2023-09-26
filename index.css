@@ -509,6 +509,12 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
     content: "";
     background-image: url('/icon/facebook.png');
 }
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="telegram.org"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="telegram.org"]::before,
+.b3-typography a[href *="telegram.org"]::before{
+    content: "";
+    background-image: url('/icon/telegram.ico');
+}
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="tieba.baidu.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="tieba.baidu.com"]::before,
 .b3-typography a[href *="tieba.baidu.com"]::before{
