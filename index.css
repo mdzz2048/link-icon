@@ -625,6 +625,12 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
     content: "";
     background-image: url('/icon/v2ex.ico');
 }
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="iplaysoft.com"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="iplaysoft.com"]::before,
+.b3-typography a[href *="iplaysoft.com"]::before{
+    content: "";
+    background-image: url('/icon/yiciyuan.ico');
+}
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="51cto.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="51cto.com"]::before,
 .b3-typography a[href *="51cto.com"]::before{
