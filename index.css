@@ -478,6 +478,12 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
     content: "";
     background-image: url('/icon/imooc.svg');
 }
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="open.163.com"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="open.163.com"]::before,
+.b3-typography a[href *="open.163.com"]::before{
+    content: "";
+    background-image: url('/icon/wangyigongkaike.png');
+}
 
 /* ------------ R18 ------------ */
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="pixiv.net"]:not(:empty)::before,
@@ -796,9 +802,9 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
     content: "";
     background-image: url('/icon/toutiao.ico');
 }
-.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="163.com"]:not(:empty)::before,
-.protyle-wysiwyg [data-node-id] a[href *="163.com"]::before,
-.b3-typography a[href *="163.com"]::before{
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="news.163.com"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="news.163.com"]::before,
+.b3-typography a[href *="news.163.com"]::before{
     content: "";
     background-image: url('/icon/news163.ico');
 }
