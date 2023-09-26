@@ -195,7 +195,7 @@
 .protyle-wysiwyg [data-node-id] a[href *="wikipedia.org"]::before,
 .b3-typography a[href *="wikipedia.org"]::before{
     content: "";
-    background-image: url('/icon/wikipedia.svg');
+    background-image: url('/icon/wikipedia.ico');
 }
 
 /* ------------ 编程 | Programming ------------ */
@@ -293,7 +293,7 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 .protyle-wysiwyg [data-node-id] a[href *="ruanyifeng.com"]::before,
 .b3-typography a[href *="ruanyifeng.com"]::before{
     content: "";
-    background-image: url('/icon/ruanyifeng.png');
+    background-image: url('/icon/ruanyifeng.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="zhangxinxu.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="zhangxinxu.com"]::before,
@@ -350,7 +350,7 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 .protyle-wysiwyg [data-node-id] a[href *="b3log.org/siyuan"]::before,
 .b3-typography a[href *="b3log.org/siyuan"]::before {
     content: "";
-    background-image: url('/icon/siyuan.svg');
+    background-image: url('/icon/siyuan.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="deepl.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="deepl.com"]::before,
@@ -525,7 +525,7 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 .protyle-wysiwyg [data-node-id] a[href *="weixin.qq.com"]::before,
 .b3-typography a[href *="weixin.qq.com"]::before{
     content: "";
-    background-image: url('/icon/wechat.svg');
+    background-image: url('/icon/mp-weixin-qq.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="twitter.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="twitter.com"]::before,
@@ -557,7 +557,7 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 .protyle-wysiwyg [data-node-id] a[href *="cloud.tencent.com"]::before,
 .b3-typography a[href *="cloud.tencent.com"]::before{
     content: "";
-    background-image: url('/icon/tencentcloud.png');
+    background-image: url('/icon/tencentcloud.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="douban.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="douban.com"]::before,
@@ -575,13 +575,13 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 .protyle-wysiwyg [data-node-id] a[href *="jianshu.com"]::before,
 .b3-typography a[href *="jianshu.com"]::before{
     content: "";
-    background-image: url('/icon/jianshu.svg');
+    background-image: url('/icon/jianshu.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="juejin.cn"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="juejin.cn"]::before,
 .b3-typography a[href *="juejin.cn"]::before{
     content: "";
-    background-image: url('/icon/juejin.png');
+    background-image: url('/icon/juejin.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="ld246.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="ld246.com"]::before,
@@ -790,13 +790,13 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 .protyle-wysiwyg [data-node-id] a[href *="stackoverflow.com"]::before,
 .b3-typography a[href *="stackoverflow.com"]::before{
     content: "";
-    background-image: url('/icon/stack-overflow.svg');
+    background-image: url('/icon/stack-overflow.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="zhihu.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="zhihu.com"]::before,
 .b3-typography a[href *="zhihu.com"]::before{
     content: "";
-    background-image: url('/icon/zhihu.svg');
+    background-image: url('/icon/zhihu.ico');
 }
 
 /* ------------ 学校 | edu.cn ------------ */
@@ -904,7 +904,7 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
 .protyle-wysiwyg [data-node-id] a[href *="microsoft.com"]::before,
 .b3-typography a[href *="microsoft.com"]::before{
     content: "";
-    background-image: url('/icon/microsoft.svg');
+    background-image: url('/icon/microsoft.ico');
 }
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="qun.qq.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="qun.qq.com"]::before,
