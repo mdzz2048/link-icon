@@ -559,6 +559,12 @@ html[data-theme-mode="light"] .b3-typography a[href *="github.com"]::before{
     content: "";
     background-image: url('/icon/aliyun.ico');
 }
+.protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="appinn.com"]:not(:empty)::before,
+.protyle-wysiwyg [data-node-id] a[href *="appinn.com"]::before,
+.b3-typography a[href *="appinn.com"]::before{
+    content: "";
+    background-image: url('/icon/xiaozhongruanjian.ico');
+}
 .protyle-wysiwyg [data-node-id] span[data-type~='a'][data-href *="bbs.huaweicloud.com"]:not(:empty)::before,
 .protyle-wysiwyg [data-node-id] a[href *="bbs.huaweicloud.com"]::before,
 .b3-typography a[href *="bbs.huaweicloud.com"]::before{
